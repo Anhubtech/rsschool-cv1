@@ -1,0 +1,128 @@
+@font-face {
+    src: url(fonts/RobotoMono-Regular.ttf);
+    font-family: robmono;
+}
+
+@font-face {
+    src: url(fonts/RobotoCondensed-Regular.ttf);
+    font-family: robcon;
+}
+
+body {
+    font-family: osw, sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+
+
+.containerHome { 
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    background-color: #FFDFDD;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .containerHome {
+      background-attachment: scroll;
+    }
+}
+
+.leftside img {
+    padding-right: 10vh;
+    padding-top: 5vh;
+}
+
+.logo {
+    font-family: robmono, monospace;
+    font-size: 1.25em;
+    color: #222629;
+    padding-top: 5vh;
+}
+
+.homepage {
+    padding-right: 8vh;
+}
+
+
+.welcometag {
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: 0.056em;
+    font-size: 1.5em;
+    margin: 0 auto;
+    font-family: robmono, monospace;
+    color: #222629;
+    text-align: center;
+}
+
+
+.welcometext {
+    font-family: robmono, monospace;
+    padding: 20px;
+    color: #222629;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.homepage a {
+    font-family: robmono, monospace;
+    color: #222629;
+    text-align: center;
+    font-size: 1em;
+    padding-left: 88vh;
+}
+
+
+.AboutMe {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2B3856;
+    border-radius: 10px;
+
+}
+
+.AboutMe img { 
+    border-radius: 30px;
+    padding-right: 5vh;
+   
+}
+
+.description {
+    font-family: robmono, monospace;
+    font-size: 1.7em;
+    width: 75vw;
+    color: #FFDFDD;
+}
+
+
+.description a{
+    font-family: robmono, monospace;
+    color: #ffaacc;
+}
+
+
+@media screen and (min-width: 1000px) and (min-height: 270px) and (orientation: landscape){
+    .description {
+        width: 1000px;
+        font-size: 2em;
+    }
+}
+
+
