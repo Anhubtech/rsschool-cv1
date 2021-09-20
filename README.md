@@ -1,1 +1,1 @@
-https://Anhubtech.github.io/rsschool-cv/index.html
+https://anhubtech.github.io/rsschool-cv/
