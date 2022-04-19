@@ -1,0 +1,17 @@
+# resume #
+
+## Anna Lavrushina
+
+## github: Anhubtech
+
+### knowledge and skills
+
+1. English level B2-C1
+2. Programming
+    1. C#
+    2. C++
+3. data structures and algorithms
+4. object-oriented programming
+5. QA
+6. computer graphics
+7. SAP
